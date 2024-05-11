@@ -257,6 +257,11 @@ require('lazy').setup({
       },
     },
   },
+  {
+    'mrcjkb/haskell-tools.nvim',
+    version = '^3', -- Recommended
+    lazy = false, -- This plugin is already lazy
+  },
 
   -- NOTE: Plugins can also be configured to run Lua code when they are loaded.
   --
